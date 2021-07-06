@@ -6,12 +6,25 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
 }
+h2{
+    margin-top:50px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color:darkseagreen;
+}
 .caption{
     color:darkseagreen;
 }
 .top-section{
     background-image: url(images/7.png);
     height:500px;
+    background-repeat:no-repeat;
+}
+.middle-section{
+    background-image: url(images/Frame\ 59.jpg);
+    height:500px;
+    margin: 0;
+    background-position: right;
 }
 .order-button{
     color:white;
@@ -41,3 +54,57 @@ p{
     margin-bottom: 50px;
     padding-right: 5px;
 }
+#person{
+    width:50%;
+    margin-top: 30px;
+}
+#centerize{
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: darkslategray;
+    height:150px;
+}
+#quote{
+    text-align:center;
+    color:floralwhite;
+}
+#about{
+    text-align:center;
+}
+.recipe{
+    height: 80%;
+    margin:20px;
+}
+#salad{
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 10px;
+    
+}
+#biriyani{
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 10px;}
+#potato{
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 20px;
+}
+ #salad-image{
+     border-radius: 20px;
+ }   
+ .likers{
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 10px;
+    margin:20px;
+    padding:10px;
+}
+
+
+ .likers h2{
+     color:black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .likes{
+     padding-right:100px;
+     padding-left:100px;
+ }
